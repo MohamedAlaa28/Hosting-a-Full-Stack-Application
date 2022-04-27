@@ -1,0 +1,19 @@
+branch-defaults:
+  main:
+    environment: udagram-backend-env
+    default_ec2_keyname: null
+    default_region: us-east-1
+  feat-ci-deloyment:
+    environment: udagram-backend-env
+    default_ec2_keyname: null
+    default_region: us-east-1
+deploy:
+  artifact: www/Archive.zip    
+global:
+  environment: udagram-backend-env
+  default_ec2_keyname: null
+  default_region: us-east-1
+  application_name: udagram-backend
+  include_git_submodules: true
+  sc: git
+  workspace_type: Application
