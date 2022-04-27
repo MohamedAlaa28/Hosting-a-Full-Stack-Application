@@ -1,1 +1,1 @@
-aws s3 cp --recursive --acl public-read ./www s3://randomudacity98/
+aws s3 cp --recursive --acl public-read ./www s3://$AWS_BUCKET/

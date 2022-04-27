@@ -76,4 +76,5 @@ The e2e tests are using Protractor and Jasmine.
 
 ## s3 link
 
+### please see the link before my credit expire again
 - aws s3 can open by the link `http://randomudacity98.s3-website-us-east-1.amazonaws.com/`
